@@ -1,0 +1,958 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mainheader{
+    display: flex;
+    width: 100%;
+    background-image: url(./images/bg-hero-1-900-x1.jpg); 
+    background-size: cover;
+  
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 1000px;
+}
+.logo{
+    display: flex;
+    width: 45%;
+    height: 70px;
+    position: relative;
+    left:50px;
+    top: 15px;
+
+}
+.header .navlinks{
+    width: 45%;
+    height: 70px;
+    display: flex;
+    margin: 7px;
+    padding: 5px;
+   
+}
+.header .navlinks a{
+    text-decoration: none;
+    color: white;
+    margin: 3px;
+    padding: 3px;
+  font-size: 18px;
+  position: relative;
+  left: -10px;
+  top: 10px;
+}
+.header .navlinks ul{
+    list-style: none;
+}
+.header .navlinks li{
+       display: inline;
+}
+.header .joinbtn{
+ background-color: transparent;
+ display: flex;
+ height: 30px;
+ position: relative;
+ left: 10px;
+ top: 20px;
+ width: 10%;
+ 
+}
+.header .joinbtn button{
+    background-color: whitesmoke;
+}
+.header .joinbtn button:hover{
+    background-color: rgb(98, 207, 8);
+}
+.headingdes{
+    position: relative;
+    left: 50px;
+    top: -800px;
+  
+    width: 50%;
+    font-size: 50px;
+    color: white;
+}
+.mainheading{
+  width: 100%;
+    display: inline;
+}
+.searchbar{
+    display: inline-block;
+    width: 100%;
+   
+}
+.searchbar input{
+    height: 30px;
+    width: 35%;
+    display: inline-block;
+    position: relative;
+    left:50px;
+    top: -790px;
+    background-color: rgb(248, 248, 248);
+}
+.searchbar button{
+    height: 30px;
+    width: 10%;
+    display: inline-block;
+    background-color: rgb(6, 179, 6);
+    position: relative;
+    left:50px;
+    top: -790px;
+}
+.bar{
+    display: flex;
+    position: relative;
+    left:50px;
+    top: -770px;
+
+}
+.navend{
+    display: flex;
+    color: white;
+    font-size: medium;
+    margin: 4px;
+    padding: 3px;
+}
+.bar ul{
+    list-style: none;
+    display: inline-block;
+   
+}
+.bar li{
+    display: inline-block;
+    color: white;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 7px;
+    border-radius: 20px;
+    text-align: center;
+}
+.banner{
+    display: flex;
+    background-color: rgb(153, 153, 153);
+    width: 100%;
+    height: 90px;
+    position: relative;
+justify-content: center;
+    top: -190px;
+   
+}
+.bnrhead{
+ display: flex;
+ align-items: center;
+ margin: 5px;
+ padding: 10px;
+ color: rgb(209, 202, 202);
+}
+.banner img{
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.middle{
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+.head1{
+    display: flex;
+    width: 100%;
+    position: relative;
+    top: -200px;
+   
+}
+.head1 h1{
+    width: 100%;
+}
+.imagesban{
+    display: flex;
+    position: relative;
+    top: -200px;
+    margin: 5px;
+    padding:5px;
+}
+.imagesban img{
+    margin: 3px;
+    padding: 5px;
+}
+.imagesban .img1 p{
+    position: relative;
+    top: -340px;
+    left: 18px;
+    margin: 2px;
+    padding: 2px;
+    color: white;
+}
+.imagesban .img1 h2{
+    position: relative;
+    top: -340px;
+    left: 18px;
+    margin: 2px;
+    padding: 2px;
+    color: white; 
+}
+.imagesban .img2 p{
+    position: relative;
+    top: -340px;
+    left: 18px;
+    margin: 2px;
+    padding: 2px;
+    color: white;
+}
+.imagesban .img2 h2{
+    position: relative;
+    top: -340px;
+    left: 18px;
+    margin:2px;
+    padding: 2px;
+    color: white; 
+}
+.imagesban .img3 p{
+    position: relative;
+    top: -340px;
+    left: 18px;
+    margin: 2px;
+    padding: 2px;
+    color: white;
+}
+.imagesban .img3 h2{
+    position: relative;
+    top: -340px;
+    left: 18px;
+    margin: 2px;
+    padding: 2px;
+    color: white; 
+}
+.imagesban .img4 p{
+    position: relative;
+    top: -340px;
+    left: 18px;
+    margin: 2px;
+    padding: 2px;
+    color: white;
+}
+.imagesban .img4 h2{
+    position: relative;
+    top: -340px;
+    left: 18px;
+    margin: 2px;
+    padding: 2px;
+    color: white; 
+}
+.imagesban .img5 p{
+    position: relative;
+    top: -340px;
+    left: 18px;
+    margin: 2px;
+    padding: 2px;
+    color: white;
+}
+.imagesban .img5 h2{
+    position: relative;
+    top: -340px;
+    left: 18px;
+    margin: 2px;
+    padding: 2px;
+    color: white; 
+}
+.container{
+     background-color: rgb(186, 214, 218);
+     width: 100%;
+     height: 800px;
+     display: inline-block;
+     align-items: right;
+     position: relative;
+     top: -200px;
+
+}
+.bigban img{
+    align-items: right;
+    position: relative;
+    left: 500px;
+    margin: 10px;
+    padding: 10px;
+    top: 200px;
+}
+.imgcnt {
+position: relative;
+left: 10px;
+top: -300px;
+color: rgb(141, 136, 136);
+}
+.imgcnt h1{
+    color: rgb(71, 70, 70);
+    margin: 10px;
+    padding: 8px;
+}
+.imgcnt h3{
+    color: rgb(71, 70, 70);
+    margin: 5px;
+    padding: 5px;
+}
+.imgcnt h6{
+    color: rgb(109, 106, 106);
+    margin: 5px;
+    padding: 5px;
+    font-size: 19px;
+}
+.container2{
+     display: flex;
+     position: relative;
+     top: -200px;
+     width: 100%;
+     margin: 2px;
+     padding: 2px;
+}
+.head2{
+    position: relative;
+    top: -100px;
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    width: 30%;
+}
+.icons{
+    display: flex;
+    position: relative;
+    top: -200px;
+  
+    margin: 2px;
+    padding: 2px;
+}
+.icon1{
+    display: flex;
+    margin : 20px;
+    padding:20px;
+   
+    border-bottom: 2px solid black;
+    position: relative;
+    left: 50px;
+   
+}
+
+
+.icon2{
+    display:flex;
+    margin : 20px;
+    padding:20px;
+    border-bottom: 2px solid black;
+    position: relative;
+    left: 150px;
+
+}
+
+.icon3{
+    display:flex;
+    margin : 20px;
+    padding:20px;
+    border-bottom: 2px solid black;
+    position: relative;
+    left: 250px;
+
+}
+.icon4{
+    display:flex;
+    margin : 20px;
+    padding:20px;
+    border-bottom: 2px solid black;
+    position: relative;
+    left: 350px;
+
+}
+.icon5{
+    display:flex;
+    margin : 20px;
+    padding:20px;
+    border-bottom: 2px solid black;
+    position: relative;
+    left: 450px;
+
+}
+.icon6{
+    display:flex;
+    margin : 20px;
+    padding:20px;
+      border-bottom: 2px solid black;
+    position: relative;
+    left: -720px;
+    top: 180px;
+
+}
+.icon7{
+    display:flex;
+    margin : 20px;
+    padding:20px;
+    border-bottom: 2px solid black;
+    position: relative;
+    left: -620px;
+    top: 180px;
+
+}
+.icon8{
+    display:flex;
+    margin : 20px;
+    padding:20px;
+    border-bottom: 2px solid black;
+    position: relative;
+    left: -510px;
+    top: 180px;
+
+}
+.icon9{
+    display:flex;
+    margin : 20px;
+    padding:20px;
+    border-bottom: 2px solid black;
+    position: relative;
+    left: -400px;
+    top: 180px;
+
+}
+.icondes{
+    display: flex;
+    position: relative;
+    top: -200px;
+    margin: 2px;
+    padding: 2px;
+}
+.icds1{
+    display: flex;
+  position: relative;
+    left: 60px;
+    top:-10px;
+    width: 100%;
+}
+.icds2{
+    display: flex;
+    position: relative;
+    left: 130px;
+    top:-10px;
+    width: 100%;
+}
+.icds3{
+    display: flex;
+    position: relative;
+    left: 180px;
+    top:-10px;
+    width: 100%;
+}
+.icds4{
+    display: flex;
+    position: relative;
+    left: 250px;
+    top:-10px;
+    width: 100%;
+}
+.icds5{
+    display: flex;
+    position: relative;
+    left: 340px;
+
+    top:-10px;
+    width: 100%;
+}
+.icds6{
+    display: flex;
+    margin : 10px;
+    padding:10px;
+    position: relative;
+    left: -900px;
+    top: 150px;
+}
+.icds7{
+    display: flex;
+    margin : 10px;
+    padding:10px;
+    position: relative;
+    left: -750px;
+    top: 150px;
+}
+.icds8{
+    display: flex;
+    margin : 10px;
+    padding:10px;
+    position: relative;
+    left: -600px;
+    top: 150px;
+
+}
+.icds9{
+    display: flex;
+    margin : 10px;
+    padding:10px;
+    position: relative;
+    left: -420px;
+    top: 150px;
+
+}
+.container3{
+    background-color: #0d084d;
+     width: 100%;
+     height: 800px;
+     display: inline-block;
+     align-items: right;
+     position: relative;
+     top: -30px;
+
+}
+
+.bigimg{
+    align-items: right;
+    position: relative;
+    left: 500px;
+    margin: 10px;
+    padding: 10px;
+    top: 50px;
+
+}
+.imgcnt1 {
+    position: relative;
+    left: 1px;
+    top: -300px;
+    color: rgb(255, 255, 255);
+
+    }
+    .imgcnt1 h2{
+        color: rgb(255, 249, 249);
+        margin: 10px;
+        padding: 8px;
+        position: relative;
+        left: -10px;
+        top: -10px;
+        font-size: 30px;
+    }
+    .imgcnt1 h1{
+        color: rgb(255, 249, 249);
+        margin: 10px;
+        padding: 8px;
+        position: relative;
+        left: -10px;
+        top: -10px;
+    }
+    .imgcnt1 i{
+        color: gray;
+        margin: 2px;
+        padding: 2px;
+        position: relative;
+        left: 1px;
+        top: 0px;
+    }
+    .imgcnt1 h3{
+        color: rgb(255, 249, 249);
+        margin: 5px;
+        padding: 5px;
+    }
+    .imgcnt1 h6{
+        color: rgb(255, 249, 249);
+        margin: 5px;
+        padding: 5px;
+        font-size: 19px;
+    }
+    .imgcnt1 .endbtn button {
+     background-color: aquamarine;
+     margin: 5px;
+     padding: 5px;
+     width: 100%;
+     height: 50px;
+     border-radius: 10px;
+    }
+    
+    
+    .imgcnt1 .endbtn{
+     margin: 20px;
+     padding: 20px;  
+     width: 100%; 
+     border-radius: 10px;
+    }
+    .shbanner{
+        display: flex;
+        margin-bottom: 10px;
+        padding-bottom: 10px;   
+    }
+    .shimg{
+        display: flex;
+        position: relative;
+        left: 10px;
+        top: -100px;
+    }
+    .shdes h2{
+        position: relative;
+        left: 10px;
+        top: -90px;
+        margin: 10px;
+        padding: 10px;
+    }
+    .shdes h1{
+        position: relative;
+        left: 10px;
+        top: -70px;
+        margin: 10px;
+        padding: 10px;
+    }
+    .logomaker{
+        display: flex;
+        height: 290px;
+        background-color: #446ee7;
+        width: 1300px;
+        position: relative;
+        margin: 10px;
+        padding: 10px;
+
+    }
+    .logoimg{
+        display: flex;
+        position: relative;
+        left: 800px;
+        top: 20px;
+
+    }
+    .logodes h3{
+        position: relative;
+        left: -300px;
+        top: 10px;
+        margin: 5px;
+        padding: 5px;
+        font-size: 29px;
+        color: white;
+    }
+    .logodes h1{
+        position: relative;
+        left: -300px;
+        top: 10px;
+        margin: 5px;
+        padding: 5px;
+        font-size: 35px;
+        color: white;
+    }
+    .logodes p{
+        position: relative;
+        left: -300px;
+        top: 10px;
+        margin: 5px;
+        padding: 5px;
+        font-size: 20px;
+        color: white;
+    }
+    .fiverrbtn button {
+        background-color: white;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        color: #446ee7;
+       }
+       .fiverrbtn{
+        margin: 10px;
+        padding: 10px;  
+        width: 100%; 
+        border-radius: 10px;
+        position: relative;
+        left: -300px;
+       }
+       .con{
+           display: flex;
+           background-color:#f5f5f5;
+           margin: 5px;
+           padding: 5px;
+           width: 100%;
+       }
+       .con h1{
+           margin: 10px;
+           padding: 10px;
+       }
+       .cards{
+           display: flex;
+           margin: 5px;
+           padding: 5px;
+
+       }
+       .crd1{
+           display: inline;
+           margin: 5px;
+           padding: 5px;
+           background-color: white;
+           border-radius: 5px;
+       }
+       .crd2{
+        display:inline;
+        margin: 5px;
+        padding: 5px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .crd3{
+        display:inline;
+        margin: 5px;
+        padding: 5px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .crd4{
+        display: inline;
+        margin: 5px;
+        padding: 5px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .crd1 h1{
+        color: black;
+        background-color: white;
+        font-size: 20px;
+        height: 50px;
+        align-items: center;
+        text-align: center;
+        border-radius: 5px;
+        display: block;
+        margin: 5px;
+        padding: 5px;
+    }
+    .crd2 h1{
+        color: black;
+        background-color: white;
+        font-size: 20px;
+        height: 50px;
+        align-items: center;
+        text-align: center;
+        border-radius: 5px;
+        margin: 5px;
+        padding: 5px;
+    }
+    .crd3 h1{
+        color: black;
+        background-color: white;
+        font-size: 20px;
+        height: 50px;
+        align-items: center;
+        text-align: center;
+        border-radius: 5px;
+        margin: 5px;
+        padding: 5px;
+    }
+    .crd4 h1{
+        color: black;
+        background-color: white;
+        font-size: 20px;
+        height: 50px;
+        align-items: center;
+        text-align: center;
+        border-radius: 5px;
+        margin: 5px;
+        padding: 5px;
+    }
+    .cn{
+        display: flex;
+        margin: 5px;
+        padding: 5px;
+        width: 100%;
+    }
+    .cn h1{
+        margin: 10px;
+        padding: 10px;}
+    .gd{
+        display: flex;
+        margin: 5px;
+        padding: 5px;
+    }
+    .gd1{
+        display: inline;
+        margin: 5px;
+        padding: 5px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .gd2{
+     display:inline;
+     margin: 5px;
+     padding: 5px;
+     background-color: white;
+     border-radius: 5px;
+ }
+ .gd3{
+     display:inline;
+     margin: 5px;
+     padding: 5px;
+     background-color: white;
+     border-radius: 5px;
+ }
+ .gd1 h3{
+    color: black;    
+    border-radius: 5px;
+    display: block;
+    margin: 5px;
+    padding: 5px;
+}
+.gd2 h3{
+    color: black;    
+    border-radius: 5px;
+    display: block;
+    margin: 5px;
+    padding: 5px;
+}
+.gd3 h3{
+    color: black;    
+    border-radius: 5px;
+    display: block;
+    margin: 5px;
+    padding: 5px;
+}
+.gd1 p{
+    color: black;    
+    border-radius: 5px;
+    display: block;
+    margin: 2px;
+    padding: 2px;
+}
+.gd2 p{
+    color: black;    
+    border-radius: 5px;
+    display: block;
+    margin: 2px;
+    padding: 2px;
+}
+.gd3 p{
+    color: black;    
+    border-radius: 5px;
+    display: block;
+    margin: 5px;
+    padding: 5px;
+}
+.signup p{
+    font-size: 50px;
+    position: relative;
+    left: 100px;
+    top: -300px;
+    color: white;
+}
+.getbtn button {
+    background-color: rgb(104, 231, 146);
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    color: white
+   }
+   .getbtn{
+    margin: 10px;
+    padding: 10px;  
+    width: 100%; 
+    border-radius: 10px;
+    position: relative;
+    left: 100px;
+    top: -250px;
+    
+   }
+   .footer{
+       width: 100%;
+       height: 600px;
+       background-color:#fdfcfc;
+       margin: 5px;
+       padding: 5px;
+       display: flex;
+   }
+   .div1{
+        display: inline-block;
+        margin: 8px;
+        padding: 8px;
+
+   }
+   .div2{
+    display: inline-block;
+    margin: 8px;
+    padding: 8px;
+
+}
+.div3{
+    display: inline-block;
+    margin: 8px;
+    padding: 8px;
+
+}
+.div4{
+    display: inline-block;
+    margin: 8px;
+    padding: 8px;
+
+}
+.div5{
+    display: inline-block;
+    margin: 8px;
+    padding: 8px;
+
+}
+.cnt1{
+    display: inline-block;
+    margin: 8px;
+    padding: 8px;
+    
+
+}
+.cnt2{
+    display: inline-block;
+    margin: 8px;
+    padding: 8px;
+
+}
+.cnt3{
+    display: inline-block;
+    margin: 8px;
+    padding: 8px;
+
+}
+.cnt4{
+    display: inline-block;
+    margin: 8px;
+    padding: 8px;
+
+}
+.cnt5{
+    display: inline-block;
+    margin: 8px;
+    padding: 8px;
+
+}
+.ps1{
+    display: flex;
+    margin: 8px;
+    padding: 8px;
+}
+.ps1:hover{
+    text-decoration: underline;
+}
+.ps2{
+    display: flex;
+    margin: 8px;
+    padding: 8px;
+}
+.ps2:hover{
+    text-decoration: underline;
+}
+.ps3{
+    display: flex;
+    margin: 8px;
+    padding: 8px;
+}
+.ps3:hover{
+    text-decoration: underline;
+}
+.ps4{
+    display: flex;
+    margin: 8px;
+    padding: 8px;
+}
+.ps4:hover{
+    text-decoration: underline;
+}
+.ps5{
+    display: flex;
+    margin: 8px;
+    padding: 8px;
+}
+.ps5:hover{
+    text-decoration: underline;
+}
